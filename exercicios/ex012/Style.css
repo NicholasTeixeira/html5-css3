@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+}
+header {
+    border: 10px solid transparent;
+    padding: 0px;
+    border-image-source: url("imagens/borda.png");
+    border-image-slice: 30;
+    border-image-repeat: repeat;
+    
+}
+h1 {
+    font-family: ;
+    color: black;
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    text-align: center;
+}
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 125%;
+    text-align: center;
+    margin-top: 3px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: justify;
+    font-weight: lighter;
+}
+#sombra {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    background-color: cornflowerblue;
+    height: 160px;
+    width: 500px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px;
+    border-color: darkblue;
+    border-radius: 30px 0px;
+    box-shadow: 0px 2px 2px black;
+}
+footer {
+    background-color: darkcyan;
+}

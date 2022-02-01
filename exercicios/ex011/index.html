@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Abrir o site em varios dispositivos diferentes ou mudar o tamanho do navegador.</p>
+    <img src="imagens/finger-guns-ayye.gif" alt="MAria Jane" />
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Vamos aprender a reproduzir áudio</h1>
+    <audio preload="metadata" controls>
+        <source src="audio/Música.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Vou inserir um vídeo</h1>
+    <p>Esse vídeo estará hospedado no meu computador.</p>
+    <video width="560" poster="imagens/thumb.jpg" loop controls>
+        <source src="videos/video.webm" type="video/webm">
+        <source src="videos/video.mp4" type="video/mp4">
+        <p>Infelizmente o seu navegador não é compátivel com reprodução de vídeos, SEU POBRE!</p>
+    </video>
+    <h1>Agora vou inserir um vídeo diferente</h1>
+    <p>Esse será hospedado externamente!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UForX7ehChM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

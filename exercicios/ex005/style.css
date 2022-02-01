@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+* {
+    height: 100%;
+}
+@font-face {
+    font-family: 'Valid Harmony';
+    src: url('Fonts/Valid Harmony.otf') format('opentype'), url('Fonts/Valid Harmony.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font: 3em 'Valid Harmony';
+}
